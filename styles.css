@@ -1,0 +1,41 @@
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f9fb;
+  color: #222;
+}
+
+.hero {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.buttons a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 18px;
+  text-decoration: none;
+  border-radius: 6px;
+  background: #0066ff;
+  color: white;
+}
+
+.projects {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.project-card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+}
