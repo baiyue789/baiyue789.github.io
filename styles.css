@@ -41,6 +41,10 @@ footer {
   color: #666;
 }
 
+
+.resume h2 {
+  text-align: center;
+}
 .resume {
   display: flex;
   flex-direction: column;
@@ -49,7 +53,9 @@ footer {
 }
 
 .resume iframe {
-  max-width: 100%;
+  width: 70vw;          /* take 70% of viewport width */
+  max-width: 900px;    /* don’t get too wide on large screens */
+  height: 900px;       /* taller viewing area */
   border-radius: 8px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
